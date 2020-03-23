@@ -17,7 +17,20 @@
   <!-- Meta -->
   <meta content="Your Project" property="og:title">
   <meta content="Your Project description goes here." name="description">
-  </head>
+  <!-- Initializer -->
+  <script>
+    Flatdoc.run({
+      fetcher: Flatdoc.github('web-dev-bible/web-dev-bible.github.io')
+    });
+  </script>
+</head>
+  <body role='flatdoc'>
+
+  <div class='header'>
+    <div class='left'>
+      <h1>Your Project</h1>
+      <ul>
+
     <body class="no-literate">
       <div id="container">
         <div id="nav"><div id="header">
@@ -55,22 +68,6 @@
               <li class="h2"><a href="#changelog">Changelog</a></li>
               <li class="h2"><a href="#license">License</a></li>
     </ul></div>
-  <!-- Initializer -->
-  <script>
-    Flatdoc.run({
-      fetcher: Flatdoc.github('web-dev-bible/web-dev-bible.github.io')
-    });
-  </script>
-</head>
-<body role='flatdoc'>
-
-  <div class='header'>
-    <div class='left'>
-      <h1>Your Project</h1>
-      <ul>
-        <li><a href='https://github.com/web-dev-bible/web-dev-bible.github.io'>View on GitHub</a></li>
-        <li><a href='https://github.com/web-dev-bible/web-dev-bible.github.io/issues'>Issues</a></li>
-      </ul>
     </div>
     <div class='right'>
       <!-- GitHub buttons: see http://ghbtns.com -->
