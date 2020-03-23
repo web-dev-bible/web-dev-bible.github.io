@@ -5,9 +5,12 @@
       </div>
       <div class="section" id="sections">
         <ul class="section-nav">
-          <li class="h2"><a href="#hosted">Hosted</a></li>
-          <li class="h3"><a href="#cname">CNAME</a></li>
-          <li class="h3"><a href="#post-receive-hook">Post-Receive Hook</a></li>
+          <li class="h2"><a href="#hosted">HTML</a></li>
+            <ul>
+              <li class="h3"><a href="#hosted">What is HTML</a></li>
+              <li class="h3"><a href="#hosted">Hyperlinks</a></li>
+          <li class="h2"><a href="#cname">CNAME</a></li>
+          <li class="h2"><a href="#post-receive-hook">Post-Receive Hook</a></li>
           <li class="h3"><a href="#manual-recompile">Manual Recompile</a></li>
           <li class="h3"><a href="#configuration">Configuration</a></li>
           <li class="h3"><a href="#jsonp-example-with-jquery">JSONP example with jQuery</a></li>
